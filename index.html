@@ -332,14 +332,13 @@
         var qr = 1
 
         for (i=0;i<npro;i++){
-        	if (produit[i][4] == "aq" || produit[i][4] == "l"){
+        	if (produit[i][4] == "aq" || produit[i][4] == "g"){
                 qr = qr * (parseFloat(produit[i][2])/vtot)**parseFloat(produit[i][1])
-                console.log(qr)
             }
         }
 
         for (i=0;i<nrea;i++){
-        	if (reactif[i][4] == "aq" || reactif[i][4] == "l"){
+        	if (reactif[i][4] == "aq" || reactif[i][4] == "g"){
                 qr = qr / (parseFloat(reactif[i][2])/vtot)**parseFloat(reactif[i][1])
             }
         }
