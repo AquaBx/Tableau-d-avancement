@@ -1,1 +1,38 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+            body{
+                padding:20px;
+                margin:0;
+                font-family: 'Comfortaa';
+                background-color: #f9f9f9;
+                text-align:center;
+            }
+        	tr, th, td {
+        		border: solid 1px black;
+        		text-align: center;
+        		height: 50px;
+        		width : 150px;
+        		padding: 10px;
+        	}
+            th {
+        		width : 321px;
+        	}
+            table{
+                border-collapse: collapse;
+                margin: 25px auto ;
+            }
+            input{
+                height: 100%;
+                width: 100%;
+                text-align:center;
+                border:none;
+                background-color: #f9f9f9;
+                transition:0.25s;
+                font-size : 20px;
+                font-family: 'Comfortaa';
+                border-radius:15px;
+                color: rgb(255,0,0);
+            }
+            input:hover{
+                background-color: rgb(220,220,220);
+                transition:0.25s;
+            }
